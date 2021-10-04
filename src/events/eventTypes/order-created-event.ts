@@ -1,7 +1,7 @@
 import { OrderStatus } from "../order-status";
 import { Subjects } from "./../subjects";
 
-interface OrderCreatedEvent {
+export interface OrderCreatedEvent {
   Subject: Subjects.ORDER_CREATED;
   data: {
     id: string;

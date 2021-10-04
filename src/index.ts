@@ -22,6 +22,9 @@ export * from "./events/base-publisher";
 export * from "./events/eventTypes/ticket-created-event";
 export * from "./events/eventTypes/ticket-updated-event";
 
+export * from "./events/eventTypes/order-created-event";
+export * from "./events/eventTypes/order-cancelled-event";
+
 // export event types subjects
 export * from "./events/subjects";
 
